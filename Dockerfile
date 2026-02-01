@@ -1,3 +1,3 @@
-FROM docker.io/nginx:mainline-alpine
+FROM docker.io/caddy:2-alpine
 
-COPY ./wwwroot/* /usr/share/nginx/html/
+COPY ./wwwroot /wwwroot
